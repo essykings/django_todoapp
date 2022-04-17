@@ -1,0 +1,14 @@
+{% block content%}
+{% for task in object_list %}
+<ul style="font-size: medium; color: rgb(247, 23, 23); margin-left: auto;">
+     
+     <li>{{task.body}}</li>
+     <li>{{task.due_date}}</li>
+     <li>{{task.category}}</li>
+
+     ...........
+
+</ul>
+{% endfor %}
+{% endblock %}
+
